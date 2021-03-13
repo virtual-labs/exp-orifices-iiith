@@ -22,7 +22,7 @@ let sleep = (ms) => {
     while (true) {
       // For Moving water in all seven pipes asynchronusly
       if (curPosition > finalPosition) break;
-      curPosition += 0.01;
+      curPosition += 0.005;
       path.setAttribute("offset", curPosition);
       await sleep(0.5);
     }
@@ -55,7 +55,7 @@ let sleep = (ms) => {
             }
         }
         if (curPosition > finalPosition) break;
-        curPosition += 0.01;
+        curPosition += 0.005;
         path.setAttribute("offset", curPosition);
         await sleep(2);
       }
