@@ -1,8 +1,11 @@
-Procedure for the experiment is as follows.
+Procedure for the experiment is as follows:
 
-(i) Close the valves of inlet pipe, Orifice meter pipe line and manometer.
-(ii) The gate valve of the pipeline selected for the experimentation is opened.
-(iii) The needle valves of the corresponding manometer & Orifice meter are opened.
-(iv) Adjust the control valve kept at the exit side of the Orifice to a desired flow rate and maintain the flow.
-(v) Note down the readings of manometer & time for 10cm rise in measuring tank.
-(vi) Adjust the gate valve and repeat the experiment.
+1. Click/Tap on the **Start** button to start the experiment.
+2. The water shall start flowing through the flow channel. The level in the two tubes shall start rising accordingly. Notice closely the flow of water after it encounters the orifice.
+3. Eventually the water will reach the maximum height for each tube.
+4. Try to change the flow speed by using **Control flow speed** glider. Bringing the glider to the left will slow down the water flow whereas bringing it to the right will speed it up!
+5. The **Control flow speed** glider is dynamic and can be changed midway when the water is filling up too. 
+6. Click/Tap on the **Reset** button to restart the expeirment afresh, i.e., with empty apparatus.
+
+
+[Read More](docs/3.Orifices.pdf)
