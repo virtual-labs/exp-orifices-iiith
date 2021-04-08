@@ -8,22 +8,17 @@ let arrayRemove = (arr, value) => {
   });
 };
 
-/**
- * tube-1
- * tube-2
- */
 ids = ["complete-flow"];
 
 let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   let path = document.getElementById(id);
   let flags = [true, true, true, true, true, true, true];
   while (true) {
-    speed2 = document.getElementById("water-flow").value;
-    speed2 = speed2 * 0.0001;
-    speed2 = speed2 == 0 ? 0.0001 : speed2;
-    // For Moving water in all seven pipes asynchronusly
+    animation_speed = document.getElementById("water-flow").value;
+    animation_speed = animation_speed * 0.0001;
+    animation_speed = animation_speed == 0 ? 0.0001 : animation_speed;
     if (curPosition > finalPosition) break;
-    curPosition += speed2;
+    curPosition += animation_speed;
     path.setAttribute("offset", curPosition);
     await sleep(0.5);
   }
@@ -37,12 +32,12 @@ let startAnimation = async () => {
     let finalPosition = 1;
     let curPosition = 0;
     while (true) {
-      speed2 = document.getElementById("water-flow").value;
-      speed2 = speed2 * 0.0001;
-      speed2 = speed2 == 0 ? 0.0001 : speed2;
+      animation_speed = document.getElementById("water-flow").value;
+      animation_speed = animation_speed * 0.0001;
+      animation_speed = animation_speed == 0 ? 0.0001 : animation_speed;
       if (id == "complete-flow") {
         if (curPosition > 0.45 && flags[0]) {
-          asyncMove("tube-1");
+          asyncMove("tube-1", 0, 0.5);
           flags[0] = 0;
         }
         if (curPosition > 0.5 && flags[1]) {
@@ -50,7 +45,7 @@ let startAnimation = async () => {
           flags[1] = 0;
         }
         if (curPosition > 0.45 && flags[2]) {
-          asyncMove("tube-2");
+          asyncMove("tube-2", 0, 0.6);
           flags[2] = 0;
         }
         if (curPosition > 0.7 && flags[3]) {
@@ -59,7 +54,7 @@ let startAnimation = async () => {
         }
       }
       if (curPosition > finalPosition) break;
-      curPosition += speed2;
+      curPosition += animation_speed;
       path.setAttribute("offset", curPosition);
       await sleep(2);
     }
