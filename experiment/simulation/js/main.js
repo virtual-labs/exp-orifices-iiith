@@ -24,7 +24,7 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   }
 };
 
-let startAnimation = async () => {
+let animation = async () => {
   let flags = [1, 1, 1, 1];
   for (let i = 0; i < ids.length; i++) {
     id = ids[i];
@@ -73,11 +73,11 @@ let resetEverything = () => {
   });
 };
 disablestart = false;
-let startAn = async () => {
+let startAnimation = async () => {
   resetEverything();
   document.getElementById("startbutton").disabled = true;
   document.getElementById("resetbutton").disabled = true;
-  await startAnimation();
+  await animation();
   document.getElementById("startbutton").disabled = false;
   document.getElementById("resetbutton").disabled = false;
 };
