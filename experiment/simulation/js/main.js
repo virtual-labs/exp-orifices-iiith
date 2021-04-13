@@ -8,7 +8,7 @@ let arrayRemove = (arr, value) => {
   });
 };
 
-ids = ["complete-flow"];
+let ids = ["complete-flow"];
 
 let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   let path = document.getElementById(id);
@@ -72,7 +72,7 @@ let resetEverything = () => {
     path.setAttribute("offset", 0);
   });
 };
-disablestart = false;
+
 let startAnimation = async () => {
   resetEverything();
   document.getElementById("startbutton").disabled = true;
