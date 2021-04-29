@@ -2,8 +2,6 @@
 
 In an orifice the liquid flows in the form of a jet caused by the opening of the orifice, and the velocity of flow is caused due to conversion of pressure energy of liquid in to kinetic energy. 
 
-[Read More](docs/3.Orifices.pdf)
+Therefore, the aim of this experiment is to determine the coefficients of discharge (Cd) for the given orifice meter. 
 
-To determine the coefficients of discharge (Cd) for the given orifice meter. 
-
-[Read More](docs/3.Orifices.pdf)
+[Read more about the experiment in detail](docs/3.Orifices.pdf)
