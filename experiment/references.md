@@ -1,7 +1,7 @@
-- FLUID MECHANICS - RK BANSAL
+- Fluid Mechanics - RK Bansal
 
-- EXPERIMENTS ON FLUID MECHANICS - SARABJIT SINGH
+- Experiments on Fluid Mechanics - Sarabjit Singh
 
-- [The constructor]( http://theconstructor.org/)
+- [The constructor](https://theconstructor.org/)
 
 
