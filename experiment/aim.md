@@ -4,5 +4,5 @@ In an orifice the liquid flows in the form of a jet caused by the opening of the
 
 Therefore, the aim of this experiment is to determine the coefficients of discharge (Cd) for the given orifice meter. 
 
-To read about the Aim of the experiment click [here.](docs/3.Orifices.pdf)
+To read about the Aim of the experiment click [here](docs/3.Orifices.pdf)
 

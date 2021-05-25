@@ -8,5 +8,5 @@ Q4. The approximate distance of venacontracta from the centre of orifice is d
 
 Q5. The standard values of Cod ranges from (0.85-0.99) 
 
-To read about the Assignment of the experiment click [here.](docs/3.Orifices.pdf)
+To read about the Assignment of the experiment click [here](docs/3.Orifices.pdf)
 
