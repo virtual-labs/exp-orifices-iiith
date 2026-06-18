@@ -1,2 +1,158 @@
-[{"question":"1. Where the velocity of flow is maximum and pressure is minimum?:","answers":{"a":"At the start of pipe","b":"At the end of pipe","c":"At vena contracta"},"correctAnswer":"c"},{"question":"2. Which of these have a greater loss of energy?","answers":{"a":"Orifice Meter","b":"Venturi Meter"},"correctAnswer":"a"}]
-
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Where is the velocity of flow maximum in a jet issuing from an orifice?",
+      "answers": {
+        "a": "At the free surface of the tank",
+        "b": "At the center of the tank",
+        "c": "At the vena contracta",
+        "d": "Far downstream of the jet"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The fluid at the free surface has negligible velocity compared to the jet.",
+        "b": "Incorrect. The center of the tank is not associated with maximum jet velocity.",
+        "c": "Correct. The velocity is maximum at the vena contracta, where the jet area is minimum.",
+        "d": "Incorrect. Jet velocity decreases downstream due to air resistance and gravity effects."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The coefficient of discharge of an orifice is always:",
+      "answers": {
+        "a": "Less than unity",
+        "b": "Equal to unity",
+        "c": "Greater than unity",
+        "d": "Zero"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Due to contraction and friction losses, the coefficient of discharge is always less than one.",
+        "b": "Incorrect. Real fluids experience losses, making the coefficient less than unity.",
+        "c": "Incorrect. A coefficient greater than one is physically impossible.",
+        "d": "Incorrect. A zero coefficient would imply no discharge."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which theorem is used to derive the theoretical velocity through an orifice?",
+      "answers": {
+        "a": "Pascal's law",
+        "b": "Bernoulli's theorem",
+        "c": "Newton's law of viscosity",
+        "d": "Archimedes' principle"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Pascal's law deals with pressure transmission in fluids.",
+        "b": "Correct. Bernoulli's theorem forms the basis of Torricelli's theorem for theoretical velocity.",
+        "c": "Incorrect. Newton's law describes viscous behavior of fluids.",
+        "d": "Incorrect. Archimedes' principle is related to buoyancy."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The coefficient of velocity is defined as the ratio of:",
+      "answers": {
+        "a": "Theoretical velocity to actual velocity",
+        "b": "Actual velocity to theoretical velocity",
+        "c": "Actual discharge to theoretical discharge",
+        "d": "Area of jet to area of orifice"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. This ratio is the inverse of the coefficient of velocity.",
+        "b": "Correct. Coefficient of velocity is the ratio of actual jet velocity to theoretical velocity.",
+        "c": "Incorrect. This ratio defines the coefficient of discharge.",
+        "d": "Incorrect. This ratio corresponds to the coefficient of contraction."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Which coefficient accounts for the reduction in jet area after the fluid leaves the orifice?",
+      "answers": {
+        "a": "Coefficient of contraction",
+        "b": "Coefficient of velocity",
+        "c": "Coefficient of friction",
+        "d": "Coefficient of pressure"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The coefficient of contraction represents the reduction in jet area at the vena contracta.",
+        "b": "Incorrect. Coefficient of velocity relates actual and theoretical velocities.",
+        "c": "Incorrect. Friction coefficient is not used in orifice jet contraction analysis.",
+        "d": "Incorrect. Coefficient of pressure is not applicable here."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which type of energy is mainly converted into kinetic energy when fluid flows through an orifice?",
+      "answers": {
+        "a": "Heat energy",
+        "b": "Chemical energy",
+        "c": "Pressure energy",
+        "d": "Nuclear energy"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Heat energy is not the primary source of flow through an orifice.",
+        "b": "Incorrect. Chemical energy is unrelated to this flow process.",
+        "c": "Correct. Pressure head is converted into velocity head as the fluid exits the orifice.",
+        "d": "Incorrect. Nuclear energy has no relevance to fluid discharge through orifices."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Which of the following devices experiences greater permanent head loss?",
+      "answers": {
+        "a": "Venturimeter",
+        "b": "Pitot tube",
+        "c": "Flow nozzle",
+        "d": "Orifice meter"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Venturimeters are designed to minimize permanent head losses.",
+        "b": "Incorrect. Pitot tubes do not cause significant permanent head loss.",
+        "c": "Incorrect. Flow nozzles have lower losses compared to orifice meters.",
+        "d": "Correct. Orifice meters experience relatively high permanent energy losses due to abrupt contraction and expansion."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. In the determination of coefficient of velocity using the jet trajectory method, the jet path is assumed to follow:",
+      "answers": {
+        "a": "Circular motion",
+        "b": "Simple harmonic motion",
+        "c": "Rectilinear motion",
+        "d": "Projectile motion"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The jet does not follow a circular path.",
+        "b": "Incorrect. Simple harmonic motion is not applicable to jet trajectories.",
+        "c": "Incorrect. Gravity causes the jet to curve downward.",
+        "d": "Correct. The jet behaves like a projectile under the influence of gravity."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. For an ideal fluid flowing through an orifice, the coefficient of velocity would theoretically be:",
+      "answers": {
+        "a": "0",
+        "b": "Less than 0.5",
+        "c": "1",
+        "d": "Greater than 1"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Zero would imply no flow velocity.",
+        "b": "Incorrect. Ideal fluids do not exhibit such large losses.",
+        "c": "Correct. In an ideal fluid, actual velocity equals theoretical velocity, giving a coefficient of velocity equal to one.",
+        "d": "Incorrect. Coefficients greater than one are not physically possible."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
