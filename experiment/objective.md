@@ -1,0 +1,3 @@
+- To study the flow characteristics through an orifice.
+- To determine the coefficient of discharge (Cd) of the given orifice.
+- To compare the theoretical and actual discharge through the orifice.
