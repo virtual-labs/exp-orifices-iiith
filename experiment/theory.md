@@ -1,8 +1,42 @@
-An orifice is a small opening of regular shape provided in the side or bottom of a tank or vessel through which a liquid flows under the action of gravity. The liquid surface in the tank is maintained above the top edge of the opening, producing a pressure head that causes the fluid to emerge as a free jet. Orifices are widely used for measuring and controlling the discharge of liquids in hydraulic structures and engineering systems.
+An orifice is a small opening of regular shape provided in the side or bottom of a tank through which a liquid flows under the action of gravity. The pressure exerted by the liquid above the opening causes the fluid to emerge as a free jet.
 
-The flow of liquid through an orifice is governed by the principle of conservation of energy. As the liquid passes through the opening, its pressure energy is converted into kinetic energy, resulting in the formation of a high-velocity jet. The theoretical velocity of the jet can be determined using Bernoulli's theorem.
+As the liquid passes through the orifice, its pressure energy is converted into kinetic energy. The velocity and discharge of the jet depend on the head of liquid above the orifice and the characteristics of the opening.
 
-Bernoulli's equation states that the total mechanical energy of a steady, incompressible, and frictionless fluid flowing along a streamline remains constant. Considering the free surface of the liquid in the tank and the centre of the orifice, the equation may be written as
+In practice, the jet contracts after leaving the orifice and experiences energy losses due to friction and turbulence. Consequently, the actual flow differs from the ideal theoretical prediction.
+
+The Orifices experiment studies these effects and determines the coefficients that describe the behaviour of the flowing jet.
+
+### Everyday Intuition
+
+The flow through an orifice can be observed in many common situations.
+
+- Water flowing from a hole in a storage tank.
+- Leakage through a small opening in a pipe.
+- Water emerging from a reservoir outlet.
+- Flow through irrigation outlets.
+
+In each case, a greater water level above the opening produces a higher velocity of the issuing jet. The jet initially contracts to a smaller cross-section before gradually expanding as it moves through the air.
+
+This contraction and subsequent expansion are characteristic features of orifice flow.
+
+### Experimental Relevance
+
+The objective of the Orifices experiment is to study the discharge of water through an orifice under a constant head and to determine the coefficients governing the flow.
+
+The experiment involves:
+
+- Measuring the actual discharge through the orifice,
+- Calculating the theoretical discharge using Bernoulli's theorem,
+- Studying the trajectory of the issuing jet,
+- Determining the coefficient of velocity,
+- Determining the coefficient of contraction,
+- Determining the coefficient of discharge.
+
+The experiment demonstrates that the actual flow is influenced by the contraction of the jet and energy losses occurring during discharge.
+
+### Mathematical Formulation
+
+Applying Bernoulli's theorem between the free surface of the tank and the centre of the orifice,
 
 $$
 \frac{P_1}{\rho g}
@@ -19,32 +53,26 @@ Z_1
 Z_2.
 $$
 
-Where:
+For a large tank,
 
-- $P$ = Pressure of the fluid, $\mathrm{N/m^2}$,
-- $\rho$ = Density of the fluid, $\mathrm{kg/m^3}$,
-- $V$ = Velocity of flow, $\mathrm{m/s}$,
-- $g$ = Acceleration due to gravity, $\mathrm{m/s^2}$,
-- $Z$ = Elevation above a reference datum, $\mathrm{m}$.
+- The free surface and the orifice are exposed to atmospheric pressure,
+- The velocity at the free surface is negligible,
+- The difference in elevation equals the head of liquid, $H$.
 
-For a large tank open to the atmosphere,
-
-- The pressure at the free surface and at the orifice is atmospheric,
-- The velocity of the liquid at the free surface is negligible,
-- The difference in elevation between the free surface and the centre of the orifice is the head, $H$.
-
-Under these conditions, Bernoulli's equation simplifies to
+The equation simplifies to
 
 $$
 V_t=\sqrt{2gH},
 $$
 
-which is known as Torricelli's theorem. Here,
+which is known as Torricelli's theorem.
 
-- $V_t$ = Theoretical velocity of the jet,
-- $H$ = Head of liquid above the centre of the orifice.
+Here,
 
-The theoretical discharge through the orifice is given by
+- $V_t$ = Theoretical velocity,
+- $H$ = Head above the centre of the orifice.
+
+The theoretical discharge is
 
 $$
 Q_t=A\sqrt{2gH},
@@ -52,43 +80,80 @@ $$
 
 where
 
-- $Q_t$ = Theoretical discharge,
 - $A$ = Area of the orifice.
 
-In actual practice, the fluid experiences friction and other energy losses, and the jet contracts after leaving the orifice. As a result, the actual discharge is less than the theoretical discharge. The ratio of the actual discharge to the theoretical discharge is called the coefficient of discharge and is given by
+The actual discharge is
 
 $$
-C_d=\frac{Q_a}{Q_t},
+Q_a=C_dQ_t.
+$$
+
+The coefficient of discharge is
+
+$$
+C_d=\frac{Q_a}{Q_t}.
+$$
+
+The coefficient of velocity is
+
+$$
+C_v=\frac{V_a}{V_t},
 $$
 
 where
 
-- $Q_a$ = Actual discharge,
-- $Q_t$ = Theoretical discharge.
+- $V_a$ = Actual jet velocity,
+- $V_t$ = Theoretical jet velocity.
 
-The coefficient of discharge depends on two other important coefficients:
+The coefficient of contraction is
 
 $$
-C_d=C_c\times C_v,
+C_c=\frac{A_c}{A},
 $$
 
 where
 
-- $C_c$ = Coefficient of contraction,
-- $C_v$ = Coefficient of velocity.
+- $A_c$ = Area of the jet at vena contracta,
+- $A$ = Area of the orifice.
 
-The coefficient of contraction accounts for the reduction in the cross-sectional area of the jet after it passes through the orifice, while the coefficient of velocity accounts for the difference between the actual and theoretical velocities of the jet.
+These coefficients are related by
 
-<div style="text-align: center;"><img src="images/figure1.png"></div>
+$$
+C_d=C_cC_v.
+$$
 
-<div style="text-align: center;"><em>Figure 1: Flow of water through an orifice showing the formation of the jet and vena contracta.</em></div>
+### Application to the Orifice Apparatus
 
-When water flows through an orifice, the jet contracts to a minimum cross-sectional area at a short distance from the opening. This section is known as the **vena contracta**, where the velocity is maximum and the pressure is atmospheric. Beyond this point, the jet gradually expands as it travels through the air.
+The experimental apparatus consists of a water tank fitted with an orifice on one side.
 
-The experimental setup consists of a water tank fitted with an orifice at one side. Water is allowed to flow through the orifice under a constant head, and the actual discharge is determined by collecting the water in a measuring tank over a known interval of time. The theoretical discharge is calculated using Bernoulli's equation, and the coefficient of discharge is obtained by comparing the actual and theoretical values.
+Water is maintained at a constant head above the orifice and allowed to discharge freely into the atmosphere.
 
-<div style="text-align: center;"><img src="images/figure2.png"></div>
+As the water leaves the opening,
 
-<div style="text-align: center;"><em>Figure 2: Experimental setup for determining the coefficient of discharge of an orifice.</em></div>
+- The jet contracts,
+- The minimum cross-section occurs at the vena contracta,
+- The jet then follows a parabolic trajectory under gravity.
 
-The study of orifice flow is of considerable importance in hydraulic engineering. Orifices are commonly used in tanks, reservoirs, water distribution systems, irrigation structures, and flow-measuring devices. The determination of the coefficient of discharge provides valuable information for the design and analysis of hydraulic structures involving the controlled release of fluids.
+The actual discharge is determined by collecting water in a measuring tank over a known time interval.
+
+The trajectory of the jet is observed to determine the actual velocity of flow.
+
+Using these measurements, the coefficients of velocity, contraction, and discharge are evaluated.
+
+### Engineering Significance
+
+The study of orifice flow is important in many hydraulic engineering applications.
+
+Important applications include:
+
+- Reservoir outlets,
+- Water tanks,
+- Irrigation structures,
+- Spillways,
+- Flow-measuring devices,
+- Hydraulic control structures,
+- Industrial storage systems.
+
+Knowledge of the coefficients of orifice flow enables engineers to accurately predict discharge and design hydraulic structures involving the controlled release of fluids.
+
+The Orifices experiment provides a practical demonstration of the conversion of pressure energy into kinetic energy and the influence of contraction and friction on real fluid flow.
