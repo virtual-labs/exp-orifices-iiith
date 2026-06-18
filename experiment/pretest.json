@@ -1,1 +1,158 @@
-[{"question":"1. Which diameter is less, orifice or pipe?:","answers":{"a":"Orifice","b":"Pipe"},"correctAnswer":"a"},{"question":"2. When an orifice is called a large orifice?","answers":{"a":"When head of liquid from the center of orifice is less than 5 times the depth of orifice","b":"When diameter of orifice is same as diameter of pipe","c":"When the orifice is placed near to the end of the pipe"},"correctAnswer":"a"}]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Compared with the pipe in which it is provided, an orifice generally has:",
+      "answers": {
+        "a": "Smaller diameter",
+        "b": "Equal diameter",
+        "c": "Larger diameter",
+        "d": "Infinite diameter"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. An orifice is a small opening provided in a tank or pipe whose diameter is generally smaller than that of the pipe.",
+        "b": "Incorrect. Equal diameters do not represent the usual definition of an orifice.",
+        "c": "Incorrect. An orifice is intended to restrict flow and therefore is smaller than the pipe.",
+        "d": "Incorrect. Infinite diameter has no physical meaning in this context."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The point where the jet attains minimum cross-sectional area after emerging from an orifice is called:",
+      "answers": {
+        "a": "Hydraulic jump",
+        "b": "Vena contracta",
+        "c": "Stagnation point",
+        "d": "Critical section"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. A hydraulic jump occurs in open channel flow and is unrelated to orifice jets.",
+        "b": "Correct. Vena contracta is the section where the jet area becomes minimum and velocity becomes maximum.",
+        "c": "Incorrect. Stagnation point refers to zero velocity conditions.",
+        "d": "Incorrect. Critical section is associated with open channel flow."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. An orifice is primarily used to:",
+      "answers": {
+        "a": "Measure viscosity",
+        "b": "Increase fluid density",
+        "c": "Control and discharge fluid from a tank",
+        "d": "Measure atmospheric pressure"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Viscosity is measured using viscometers.",
+        "b": "Incorrect. Density is a fluid property and is not altered by an orifice.",
+        "c": "Correct. Orifices are used to discharge and regulate the flow of fluid from tanks and reservoirs.",
+        "d": "Incorrect. Atmospheric pressure is measured using barometers."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. An orifice is classified as a large orifice when:",
+      "answers": {
+        "a": "The head over the center of the orifice is less than five times its depth",
+        "b": "The orifice diameter is equal to the pipe diameter",
+        "c": "The orifice is located near the free surface",
+        "d": "The diameter exceeds one meter"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. A large orifice is one for which the head over its center is less than five times its depth.",
+        "b": "Incorrect. Pipe diameter does not determine the classification of large orifices.",
+        "c": "Incorrect. Position alone does not define a large orifice.",
+        "d": "Incorrect. The criterion depends on head and depth rather than absolute size."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Which coefficient is defined as the ratio of area of jet at vena contracta to area of the orifice?",
+      "answers": {
+        "a": "Coefficient of velocity",
+        "b": "Coefficient of contraction",
+        "c": "Coefficient of discharge",
+        "d": "Coefficient of friction"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Coefficient of velocity relates actual velocity to theoretical velocity.",
+        "b": "Correct. Coefficient of contraction is the ratio of jet area at vena contracta to the orifice area.",
+        "c": "Incorrect. Coefficient of discharge is the product of coefficients of velocity and contraction.",
+        "d": "Incorrect. Coefficient of friction is unrelated to orifice jet contraction."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. According to Torricelli's theorem, the theoretical velocity of flow through an orifice is:",
+      "answers": {
+        "a": "√(gh)",
+        "b": "gh²",
+        "c": "√(2gh)",
+        "d": "2gh"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. This expression does not represent theoretical velocity.",
+        "b": "Incorrect. Velocity is not proportional to the square of head.",
+        "c": "Correct. Torricelli's theorem gives the theoretical velocity as √(2gh).",
+        "d": "Incorrect. This expression does not have dimensions of velocity."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. The coefficient of discharge for an orifice is equal to:",
+      "answers": {
+        "a": "Coefficient of contraction × Coefficient of velocity",
+        "b": "Coefficient of velocity ÷ Coefficient of contraction",
+        "c": "Coefficient of contraction + Coefficient of velocity",
+        "d": "Coefficient of friction × Coefficient of velocity"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The coefficient of discharge is the product of coefficient of contraction and coefficient of velocity.",
+        "b": "Incorrect. Division of the two coefficients does not yield coefficient of discharge.",
+        "c": "Incorrect. Their sum has no physical significance.",
+        "d": "Incorrect. Friction coefficient is not used in this relationship."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. At the vena contracta section, the pressure is approximately:",
+      "answers": {
+        "a": "Much greater than atmospheric pressure",
+        "b": "Equal to atmospheric pressure",
+        "c": "Vacuum pressure",
+        "d": "Independent of flow conditions"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. High pressure does not exist at the free jet section.",
+        "b": "Correct. Since the jet is exposed to atmosphere, the pressure at vena contracta is approximately atmospheric.",
+        "c": "Incorrect. Vacuum pressure is not established in the free jet.",
+        "d": "Incorrect. Pressure depends on the flow configuration and surroundings."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Which quantity is experimentally determined to evaluate the coefficient of velocity of an orifice?",
+      "answers": {
+        "a": "Jet trajectory coordinates",
+        "b": "Pipe roughness",
+        "c": "Specific gravity of water",
+        "d": "Atmospheric pressure"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The coefficient of velocity is determined experimentally from the trajectory of the jet emerging from the orifice.",
+        "b": "Incorrect. Pipe roughness has no direct role in this determination.",
+        "c": "Incorrect. Specific gravity is not measured for this purpose.",
+        "d": "Incorrect. Atmospheric pressure is not required for evaluating coefficient of velocity."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
